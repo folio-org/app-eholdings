@@ -1,0 +1,46 @@
+name: Application Release Preparation
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Perform dry run without making changes'
+        required: false
+        type: boolean
+        default: false
+      previous_release_branch:
+        description: 'Previous release branch (e.g., R1-2024)'
+        required: true
+        type: string
+      new_release_branch:
+        description: 'New release branch (e.g., R2-2024)'
+        required: true
+        type: string
+      use_snapshot_version:
+        description: 'Use snapshot branch as fallback if previous release branch not found'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  prepare-app-release:
+    name: Prepare app-eholdings Release
+    uses: folio-org/kitfox-github/.github/workflows/app-release-preparation.yml@master
+    with:
+      app_name: app-eholdings
+      previous_release_branch: ${{ inputs.previous_release_branch }}
+      new_release_branch: ${{ inputs.new_release_branch }}
+      use_snapshot_version: ${{ inputs.use_snapshot_version }}
+      dry_run: ${{ inputs.dry_run }}
+    secrets: inherit
+
+  slack_notification:
+    name: Slack Notification
+    needs: prepare-app-release
+    if: always() && inputs.dry_run == false
+    uses: folio-org/kitfox-github/.github/workflows/app-release-preparation-notification.yml@master
+    with:
+      app_name: app-eholdings
+      status: ${{ needs.prepare-app-release.result }}
+      app_version: ${{ needs.prepare-app-release.outputs.app_version }}
+    secrets: inherit
