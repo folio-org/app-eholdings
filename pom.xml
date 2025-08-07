@@ -10,8 +10,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <folio-application-generator.version>1.1.0</folio-application-generator.version>
-    <maven-release-plugin.version>3.1.1</maven-release-plugin.version>
+    <folio-application-generator.version>1.2.0-SNAPSHOT</folio-application-generator.version>
   </properties>
 
   <build>
@@ -37,17 +36,7 @@
           </moduleRegistries>
         </configuration>
       </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-release-plugin</artifactId>
-        <version>${maven-release-plugin.version}</version>
-        <configuration>
-          <preparationGoals>clean verify</preparationGoals>
-          <tagNameFormat>v@{project.version}</tagNameFormat>
-          <pushChanges>false</pushChanges>
-          <localCheckout>true</localCheckout>
-        </configuration>
-      </plugin>
+
     </plugins>
   </build>
 
@@ -91,9 +80,9 @@
   </pluginRepositories>
 
   <scm>
-    <url>https://https://github.com/folio-org/app-platform-minimal</url>
-    <connection>scm:git:git://github.com:folio-org/app-platform-minimal.git</connection>
-    <developerConnection>scm:git:git@github.com:folio-org/app-platform-minimal.git</developerConnection>
+    <url>https://github.com/folio-org/app-eholdings</url>
+    <connection>scm:git:git://github.com:folio-org/app-eholdings.git</connection>
+    <developerConnection>scm:git:git@github.com:folio-org/app-eholdings.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 </project>
