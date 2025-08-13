@@ -1,6 +1,6 @@
 {
   "name": "app-eholdings",
-  "version": "1.0.0-SNAPSHOT",
+  "version": "1.0.0-SNAPSHOT.100000000000001",
   "description": "eHoldings Application",
   "platform": "complete",
   "dependencies": [
