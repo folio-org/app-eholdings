@@ -7,6 +7,7 @@ Application descriptor repository for an eHoldings application.
 | `mod-kb-ebsco-java`    |
 
 ## UI Modules
-| Module name            |
-|:-----------------------|
-| `folio_eholdings`      |
+| Module name                       |
+|:----------------------------------|
+| `folio_eholdings`                 |
+| `folio_plugin-find-package-title` |
