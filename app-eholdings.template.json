@@ -19,6 +19,10 @@
     {
       "name": "folio_eholdings",
       "version": "latest"
+    },
+    {
+      "name": "folio_plugin-find-package-title",
+      "version": "latest"
     }
   ]
 }
