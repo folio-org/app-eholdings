@@ -1,6 +1,6 @@
 {
   "name": "app-eholdings",
-  "version": "1.0.0-SNAPSHOT.100100000002026",
+  "version": "1.1.0-SNAPSHOT.100100000002438",
   "description": "eHoldings Application",
   "platform": "complete",
   "dependencies": [
@@ -18,7 +18,7 @@
   "uiModules": [
     {
       "name": "folio_eholdings",
-      "version": "11.1.1099000000000271"
+      "version": "11.1.1099000000000276"
     }
   ]
 }
