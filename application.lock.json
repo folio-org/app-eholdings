@@ -1,6 +1,6 @@
 {
   "name": "app-eholdings",
-  "version": "1.1.0-SNAPSHOT.100200000000530",
+  "version": "1.1.0-SNAPSHOT.100200000000634",
   "description": "eHoldings Application",
   "platform": "complete",
   "dependencies": [
@@ -12,7 +12,7 @@
   "modules": [
     {
       "name": "mod-kb-ebsco-java",
-      "version": "6.1.0-SNAPSHOT.481"
+      "version": "7.0.0-SNAPSHOT.482"
     }
   ],
   "uiModules": [
