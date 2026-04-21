@@ -6,27 +6,27 @@
   "dependencies": [
     {
       "name": "app-platform-minimal",
-      "version": "^2.1.0-SNAPSHOT",
-      "preRelease": "only"
+      "version": "^VERSION_^2.1.0-SNAPSHOT",
+      "preRelease": "false"
     }
   ],
   "modules": [
     {
       "name": "mod-kb-ebsco-java",
-        "version": "latest",
-        "preRelease": "only"
+      "version": "^VERSION_latest",
+      "preRelease": "false"
     }
   ],
   "uiModules": [
     {
       "name": "folio_eholdings",
-        "version": "latest",
-        "preRelease": "only"
+      "version": "^VERSION_latest",
+      "preRelease": "false"
     },
     {
       "name": "folio_plugin-find-package-title",
-      "version": "latest",
-      "preRelease": "only"
+      "version": "^VERSION_latest",
+      "preRelease": "false"
     }
   ]
 }
