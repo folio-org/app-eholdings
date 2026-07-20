@@ -1,12 +1,12 @@
 {
-  "id" : "app-eholdings-1.1.0-SNAPSHOT.100200000011390",
+  "id" : "app-eholdings-1.1.0-SNAPSHOT.100200000011438",
   "name" : "app-eholdings",
-  "version" : "1.1.0-SNAPSHOT.100200000011390",
+  "version" : "1.1.0-SNAPSHOT.100200000011438",
   "description" : "eHoldings Application",
   "modules" : [ {
-    "id" : "mod-kb-ebsco-java-7.1.0-SNAPSHOT.2238",
+    "id" : "mod-kb-ebsco-java-7.1.0-SNAPSHOT.2243",
     "name" : "mod-kb-ebsco-java",
-    "version" : "7.1.0-SNAPSHOT.2238"
+    "version" : "7.1.0-SNAPSHOT.2243"
   } ],
   "uiModules" : [ {
     "id" : "folio_eholdings-11.2.1099000000000419",
@@ -23,7 +23,7 @@
     "preRelease" : "only"
   } ],
   "moduleDescriptors" : [ {
-    "id" : "mod-kb-ebsco-java-7.1.0-SNAPSHOT.2238",
+    "id" : "mod-kb-ebsco-java-7.1.0-SNAPSHOT.2243",
     "name" : "kb-ebsco",
     "requires" : [ {
       "id" : "users",
@@ -701,7 +701,7 @@
       "subPermissions" : [ "kb-ebsco.kb-credentials.all", "kb-ebsco.kb-credentials.users.all", "kb-ebsco.kb-credentials.uc.all", "kb-ebsco.uc-credentials.all", "kb-ebsco.configuration.get", "kb-ebsco.configuration.put", "kb-ebsco.status.get", "kb-ebsco.cache.delete", "kb-ebsco.providers.collection.get", "kb-ebsco.providers.item.get", "kb-ebsco.providers.item.put", "kb-ebsco.provider-packages.collection.get", "kb-ebsco.provider-tags.put", "kb-ebsco.titles.collection.get", "kb-ebsco.titles.collection.post", "kb-ebsco.titles.item.put", "kb-ebsco.packages.collection.get", "kb-ebsco.packages-bulk.collection.get", "kb-ebsco.packages.collection.post", "kb-ebsco.packages.item.delete", "kb-ebsco.package-resources.collection.get", "kb-ebsco.package-resources.export.collection.get", "kb-ebsco.package-tags.put", "kb-ebsco.titles.item.get", "kb-ebsco.packages.item.get", "kb-ebsco.packages.item.put", "kb-ebsco.resources.item.get", "kb-ebsco.resources.collection.post", "kb-ebsco.resources-bulk.collection.get", "kb-ebsco.resources.item.put", "kb-ebsco.resources.item.delete", "kb-ebsco.resource-tags.put", "kb-ebsco.proxy-types.collection.get", "kb-ebsco.root-proxy.get", "kb-ebsco.tags.collection.get", "kb-ebsco.unique.tags.collection.get", "kb-ebsco.kb-credentials.holdings-load.status.item.get", "kb-ebsco.custom-labels.collection.get", "kb-ebsco.access-types.collection.get", "kb-ebsco.access-types.item.get", "kb-ebsco.currencies.collection.get" ]
     } ],
     "launchDescriptor" : {
-      "dockerImage" : "folioci/mod-kb-ebsco-java:7.1.0-SNAPSHOT.2238",
+      "dockerImage" : "folioci/mod-kb-ebsco-java:7.1.0-SNAPSHOT.2243",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
