@@ -1,7 +1,7 @@
 {
-  "id" : "app-eholdings-1.1.0-SNAPSHOT.100200000011438",
+  "id" : "app-eholdings-1.1.0-SNAPSHOT.100200000011453",
   "name" : "app-eholdings",
-  "version" : "1.1.0-SNAPSHOT.100200000011438",
+  "version" : "1.1.0-SNAPSHOT.100200000011453",
   "description" : "eHoldings Application",
   "modules" : [ {
     "id" : "mod-kb-ebsco-java-7.1.0-SNAPSHOT.2243",
@@ -9,9 +9,9 @@
     "version" : "7.1.0-SNAPSHOT.2243"
   } ],
   "uiModules" : [ {
-    "id" : "folio_eholdings-11.2.1099000000000419",
+    "id" : "folio_eholdings-11.2.1099000000000432",
     "name" : "folio_eholdings",
-    "version" : "11.2.1099000000000419"
+    "version" : "11.2.1099000000000432"
   }, {
     "id" : "folio_plugin-find-package-title-7.1.1099000000000132",
     "name" : "folio_plugin-find-package-title",
@@ -744,7 +744,7 @@
     }
   } ],
   "uiModuleDescriptors" : [ {
-    "id" : "folio_eholdings-11.2.1099000000000419",
+    "id" : "folio_eholdings-11.2.1099000000000432",
     "name" : "FOLIO UI module for eHoldings",
     "requires" : [ {
       "id" : "eholdings",
